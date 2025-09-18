@@ -8,7 +8,6 @@ import About from "./pages/About";
 import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
 import CustomOrder from "./pages/CustomOrder";
-
 import Contact from "./pages/Contact";
 
 export default function App() {
@@ -19,14 +18,13 @@ export default function App() {
         <Navbar />
 
         {/* Main Content */}
-        <main className="flex-grow">
+        <main className="flex-grow pt-24">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<Products />} />
             <Route path="/products/:id" element={<ProductDetail />} />
             <Route path="/custom-order" element={<CustomOrder />} />
-            
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
