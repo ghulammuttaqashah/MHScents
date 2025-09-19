@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
 import { MessageCircle } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4 text-center">
+    <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center px-4 text-center">
       
       {/* Hero Section */}
       <div className="max-w-2xl">
         {/* Logo */}
-        <div className="h-24 w-16 mx-auto mb-4  rounded-lg">
+        <div className="h-24 w-16 mx-auto mb-4 rounded-lg">
           <img
             src="/logo.png"
             alt="MH Scents Logo"
@@ -17,16 +16,15 @@ export default function Home() {
         </div>
 
         {/* Brand Title */}
-        <h1 className="text-4xl font-extrabold text-green-700">Scents</h1>
-        <p className="text-lg text-gray-700 mt-2">
-          Fragrances that define you 
+        <h1 className="text-4xl font-extrabold text-green-400">Scents</h1>
+        <p className="text-lg text-gray-300 mt-2">
+          Fragrances that define you
         </p>
-       
       </div>
 
       {/* Highlight */}
       <div className="mt-8 max-w-xl">
-        <p className="text-xl font-medium text-gray-800">
+        <p className="text-xl font-medium text-gray-200">
           ✨ Handmade perfumes, prepared fresh on every order
         </p>
       </div>

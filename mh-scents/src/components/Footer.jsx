@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 border-t border-gray-200 mt-20">
+    <footer className="bg-gray-900 border-t border-gray-700 mt-20">
       <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between">
         
         {/* Logo + Brand */}
@@ -13,14 +13,14 @@ export default function Footer() {
             />
           </div>
           <div className="sm:block">
-            <h1 className="text-2xl font-bold text-green-700">Scents</h1>
-            <p className="text-sm text-gray-600">Fragrances that define you</p>
+            <h1 className="text-2xl font-bold text-green-400">Scents</h1>
+            <p className="text-sm text-gray-300">Fragrances that define you</p>
           </div>
         </div>
       </div>
 
       {/* Copyright - always centered at bottom */}
-      <div className="text-center text-gray-500 text-xs pb-4">
+      <div className="text-center text-gray-400 text-xs pb-4">
         © {new Date().getFullYear()} MH Scents. All rights reserved.
       </div>
     </footer>
