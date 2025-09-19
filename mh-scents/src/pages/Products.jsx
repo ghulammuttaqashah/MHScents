@@ -14,6 +14,24 @@ export default function Products() {
         made for you.
       </p>
 
+       {/* Perfumes Section */}
+      <h2 className="text-2xl font-bold text-green-400 mb-6">✨ Perfumes</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-12">
+        <ProductCard
+          image="/images/perfume1.jpg"
+          name="Deepzil"
+          description="Crafted from Depteek & Duhnill inspirations — a rich, sophisticated blend of smoky wood and subtle spice."
+          price="4000"
+        />
+        <ProductCard
+          image="/images/perfume2.jpg"
+          name="Sauvage"
+          description="Fresh yet powerful, with citrus top notes layered over warm amber and earthy woods — bold and modern."
+          price="4800"
+        />
+      </div>
+
+
       {/* Attar Section */}
       <h2 className="text-2xl font-bold text-green-400 mb-6">🌿 Attars</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-12">
@@ -31,23 +49,7 @@ export default function Products() {
         />
       </div>
 
-      {/* Perfumes Section */}
-      <h2 className="text-2xl font-bold text-green-400 mb-6">✨ Perfumes</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-12">
-        <ProductCard
-          image="/images/perfume1.jpg"
-          name="Deepzil"
-          description="Crafted from Depteek & Duhnill inspirations — a rich, sophisticated blend of smoky wood and subtle spice."
-          price="4000"
-        />
-        <ProductCard
-          image="/images/perfume2.jpg"
-          name="Sauvage"
-          description="Fresh yet powerful, with citrus top notes layered over warm amber and earthy woods — bold and modern."
-          price="4800"
-        />
-      </div>
-
+     
       {/* Testers Section */}
       <h2 className="text-2xl font-bold text-green-400 mb-6">🧴 Testers</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-12">
