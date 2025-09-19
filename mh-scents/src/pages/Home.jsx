@@ -43,6 +43,7 @@ export default function Home() {
           Order on WhatsApp
         </a>
       </div>
+      
     </div>
   );
 }
